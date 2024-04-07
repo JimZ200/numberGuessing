@@ -43,7 +43,7 @@ public class Cards {
                         {34,35,38,39,42,43,46,47},
                         {50,51,54,55,58,59,62,63}};
 
-    int[][] cardSets6 = {{1,3,5,7,9,11,13,15},
+   int[][] cardSets6 = {{1,3,5,7,9,11,13,15},
                         {17,19,21,23,25,27,29,31},
                         {33,35,37,39,41,43,45,47},
                         {49,51,53,55,57,59,61,63}};
@@ -51,7 +51,7 @@ public class Cards {
     public void print(){
         System.out.println("In the game Y reps yes and N rep no; no need for uppercase lowercase also works");
         System.out.println("Pick a number between 0-63");
-        System.out.println("After picking a Game.number enter yes");
+        System.out.println("After picking a number enter yes");
     }
 
     public void printMessage(){
@@ -70,10 +70,6 @@ public class Cards {
     public void printMessageAndCards(int[][] list){
         printMessage();
         printCard(list);
-    }
-
-    public void exit(){
-        System.out.println("Thanks for playing !");
     }
     public void valid(){
         System.out.println("Enter a valid option: yes");
